@@ -7,10 +7,10 @@
     "react-scripts": "5.0.1",
     "@supabase/supabase-js": "latest"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "REACT_APP_SUPABASE_URL=$REACT_APP_SUPABASE_URL REACT_APP_SUPABASE_KEY=$REACT_APP_SUPABASE_KEY react-scripts build"
-  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "REACT_APP_SUPABASE_URL=$REACT_APP_SUPABASE_URL REACT_APP_SUPABASE_KEY=$REACT_APP_SUPABASE_KEY react-scripts build"
+},
   "browserslist": {
     "production": [">0.2%", "not dead", "not op_mini all"],
     "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
